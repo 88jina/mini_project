@@ -1,0 +1,44 @@
+@media(max-width:1000px){
+    html,body{
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mainCon{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    #left{
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+    }
+    .loginbox{
+        display: flex;
+    }
+    .inputbox{
+        display: flex;
+    }
+    .inputbox>p{
+        margin-right: 10px;
+        margin-left: 10px
+            
+    }
+    .inputbox>input{
+        height: 25px;
+        width: 80.5px
+    }
+    .button{
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    
+    #main{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,13 @@
+html,
+body {
+    width: 100%;
+    background: #DBCAD3;
+}
+
+table{
+	text-align:center;
+}
+td{
+	border: 1px solid black;
+}
+

@@ -1,0 +1,112 @@
+html,
+body {
+    width: 100%;
+    background: #DBCAD3;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 150px 1fr 200px;
+    grid-template-areas:
+        "header header"
+        "main left"
+        "footer footer";
+
+}
+
+header {
+    grid-area: header;
+
+
+}
+
+header > p {
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.mainCon {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+table {
+    text-align: center;
+    background-color: #56384B;
+    width: 400px;
+    height: 500px;
+
+}
+
+td:hover {
+    background-color: #816288;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+td > a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: whitesmoke;
+    font-weight: 900;
+
+}
+
+#main {
+    grid-area: main;
+}
+
+#left {
+    grid-area: left;
+    margin-left: 100px;
+}
+
+.loginbox {
+    background-color: #56384B;
+    padding: 20px 30px;
+}
+
+.inputbox > p {
+    margin: 5px 0px 5px 0px;
+    color: whitesmoke;
+    font-weight: 700;
+
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button > input {
+    border: none;
+    width: 70px;
+    height: 30px;
+    background-color: #C2A4C0;
+    color: whitesmoke;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.button>input:hover{
+    background-color: #56384B;
+     transition-property: all;
+    transition-duration: 0.7s;
+    box-shadow: 1.5px 1px 1px 1px;
+}
+
+
+footer {
+    grid-area: footer;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+    
